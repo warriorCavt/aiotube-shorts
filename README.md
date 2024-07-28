@@ -7,6 +7,7 @@ A fork of a library to access YouTube Public Data without YouTubeAPI, modified t
 -   [jnsougata's Discord](https://discord.gg/YAFGAaMrTC)
 -   [jnsougata's GitHub](https://github.com/jnsougata/aiotube)
 -   [jnsougata's REST API (BETA)](https://aiotube.deta.dev/)
+-   [this repo's releases](https://github.com/warriorCavt/aiotube-shorts/releases/)
 
 # Table of Contents
 
