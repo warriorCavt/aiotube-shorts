@@ -13,7 +13,7 @@ def video_count(channel_id: str) -> str:
 
 
 def uploads_data(head: str) -> str:
-    url = head + '/videos'
+    url = head + '/shorts' # The only modification in this project.
     return request(url)
 
 
