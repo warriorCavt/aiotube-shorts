@@ -8,6 +8,6 @@ setup(
     author_email='miscwindows@gmail.com,
     packages=find_packages(include=['aiotube_shorts', 'aiotube_shorts.*']),
     install_requires=[
-        
+        "urllib3", "fastapi", "git+https://github.com/jnsougata/aiotube"
     ],
 )
