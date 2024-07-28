@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "aiotube-shorts"
 version = "1.7.3b"
-description = ""
+description = "A fork of a library to access YouTube Public Data without YouTubeAPI, modified to access Shorts."
 authors = ["warriorCavt <miscwindows@gmail.com>"]
 license = "MIT"
 
