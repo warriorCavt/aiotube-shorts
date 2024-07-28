@@ -1,6 +1,6 @@
 [![Release](https://github.com/jnsougata/aiotube/actions/workflows/publish.yml/badge.svg)](https://github.com/jnsougata/aiotube/actions/workflows/publish.yml)
 
-# aiotube_shorts
+# aiotube-shorts
 
 A fork of a library to access YouTube Public Data without YouTubeAPI, modified to access Shorts.
 
