@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aiotube-shorts"
+version = "1.7.3b"
+description = ""
+authors = ["warriorCavt <miscwindows@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
