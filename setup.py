@@ -11,7 +11,7 @@ setup(
     description='A library to access YouTube Public Data without YouTubeAPI',
     long_description=readme,
     long_description_content_type="text/markdown",
-    url='https://github.com/jnsougata/aiotube',
+    url='https://github.com/warriorCavt/aiotube-shorts',
     author='Sougata Jana; forked by warriorCavt',
     author_email='jnsougata@gmail.com; forked by miscwindows@gmail.com',
     classifiers=[
