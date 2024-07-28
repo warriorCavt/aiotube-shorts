@@ -1,12 +1,12 @@
-[![Release](https://github.com/jnsougata/aiotube/actions/workflows/publish.yml/badge.svg)](https://github.com/jnsougata/aiotube/actions/workflows/publish.yml)
+[![Release](https://github.com/warriorCavt/aiotube-shorts/actions/workflows/publish.yml/badge.svg)](https://github.com/warriorCavt/aiotube-shorts/actions/workflows/publish.yml)
 
 # aiotube-shorts
 
 A fork of a library to access YouTube Public Data without YouTubeAPI, modified to access Shorts.
 
--   [Discord](https://discord.gg/YAFGAaMrTC)
--   [GitHub](https://github.com/jnsougata/aiotube)
--   [REST API (BETA)](https://aiotube.deta.dev/)
+-   [jnsougata's Discord](https://discord.gg/YAFGAaMrTC)
+-   [jnsougata's GitHub](https://github.com/jnsougata/aiotube)
+-   [jnsougata's REST API (BETA)](https://aiotube.deta.dev/)
 
 # Table of Contents
 
