@@ -1,8 +1,8 @@
 [![Release](https://github.com/jnsougata/aiotube/actions/workflows/publish.yml/badge.svg)](https://github.com/jnsougata/aiotube/actions/workflows/publish.yml)
 
-# aiotube
+# aiotube_shorts
 
-A library to access YouTube Public Data without YouTubeAPI
+A fork of a library to access YouTube Public Data without YouTubeAPI, modified to access Shorts.
 
 -   [Discord](https://discord.gg/YAFGAaMrTC)
 -   [GitHub](https://github.com/jnsougata/aiotube)
@@ -83,12 +83,12 @@ print(search.metadata)
 | `upcomings`       | `List[str]`      | Returns a list of ids of upcoming videos               |
 | `playlists`       | `List[str]`      | Returns a list of playlist ids                         |
 | `metadata`        | `Dict[str, Any]` | Returns the metadata of the channel in dict format     |
-| `last_uploaded`   | `Video`          | Most recently uploaded video of the channel            |
+| `last_uploaded`   | `Video`          | Most recently uploaded short of the channel            |
 | `last_streamed`   | `Video`          | Most recently completed livestream of the channel      |
 
 | Method                        | Return Types | Description                                        |
 |-------------------------------|--------------|----------------------------------------------------|
-| `uploads(limit: int \| None)` | `List[str]`  | Returns a list of video ids of the uploaded videos |
+| `uploads(limit: int \| None)` | `List[str]`  | Returns a list of video ids of the uploaded SHORTS. |
 
 ### Video
 
@@ -109,9 +109,9 @@ print(search.metadata)
 | `channel(name: str)`                       | `Channel`   | Finds a channel with the given keywords             |
 | `video(name: str)`                         | `Video`     | Finds a video with the given keywords               |
 | `playlist(name: str)`                      | `Playlist`  | Finds a playlist with the given keywords            |
-| `channels(name: str, limit: int \| None)`  | `List[str]` | Finds all channels that matches the given keywords  |
-| `videos(name: str,  limit: int \| None)`   | `List[str]` | Finds all videos that matches the given keywords    |
-| `playlists(name: str, limit: int \| None)` | `List[str]` | Finds all playlists that matches the given keywords |   
+| `channels(name: str, limit: int \| None)`  | `List[str]` | Finds all channels that match the given keywords  |
+| `videos(name: str,  limit: int \| None)`   | `List[str]` | Finds all videos that match the given keywords    |
+| `playlists(name: str, limit: int \| None)` | `List[str]` | Finds all playlists that match the given keywords |   
 
 ### Possible Exceptions 
 | Class             | Description                                                     |
